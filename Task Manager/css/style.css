@@ -1,0 +1,24 @@
+/* Main CSS */
+
+/* Footer */
+footer{
+    margin-top: 40px;
+    height: 300px;
+}
+
+/* Login CSS */
+#error {
+    color:red;
+}
+
+#background {
+    background-color: aqua;
+    
+}
+div.form-width{
+    width: 25%;
+    padding-bottom: 2%;
+}
+div.center{
+    margin: auto ;
+}

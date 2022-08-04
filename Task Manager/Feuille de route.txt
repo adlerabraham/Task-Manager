@@ -1,0 +1,39 @@
+Task List Manager
+
+Entities
+->User
+	-userId
+	-username
+	-password
+
+	-CRUD operations
+
+->Task
+	-taskId
+	-userId
+	-startDate
+	-endDate
+	-startTime
+	-endTime
+	-Description
+	-completed
+	-Added to calendar
+	-Alarm Setted
+
+	-CRUD operations
+	-Add to calendar
+	-Set alarm
+	-IsCompleted
+
+Languages
+->HTML
+->CSS
+->JS
+->PHP
+
+Frameworks
+->AngularJS
+->Bootstrap
+
+Tools
+EasyPHP
