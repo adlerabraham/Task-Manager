@@ -18,11 +18,11 @@ Entities
 	-Description
 	-completed
 	-Added to calendar
-	-Alarm Setted
+	-Reminder Setted
 
 	-CRUD operations
 	-Add to calendar
-	-Set alarm
+	-Set reminder
 	-IsCompleted
 
 Languages

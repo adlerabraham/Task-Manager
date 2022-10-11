@@ -4,7 +4,7 @@
             <form class="" name="signUpForm" novalidate>
                 <div class="mt-5" >
                     <div class="form-group row">
-                        <h1 >Sign Up</h1>
+                        <h1>Sign Up</h1>
                     </div>
                         <div class="" >
                             <span class="glyphicon glyphicon-user"></span>
@@ -31,21 +31,23 @@
 
                         <div>
                             <span class="glyphicon glyphicon-lock"></span>
-                            <input  type="password" name="password"
+                            <input  type="password" name="confirmPassword"
                                     ng-model="signUpCtrl.user.confirmPassword" 
                                     ng-required="true"> <br>
                             <label>Confirm password</label><br>
-                            <span ng-if="signUpForm.password.$error.required && signUpForm.password.$touched"
+                           
+                            <span ng-if="signUpForm.confirmPassword.$error.required && signUpForm.confirmPassword.$touched"
                             class="glyphicon glyphicon-alert" id="error">
                                 Please confirm the password
                             </span>
                         </div>
                         <button ng-disabled="signUpForm.$invalid"
                                 ng-click="signUpCtrl.signUp()"
-                        class="btn">Connect</button>
+                        class="btn">Create account</button>
                         <br>
                         {{signUpCtrl.msg}}
-                    
+
+                        <p>You already have an account?<a ui-sref="login">Login </a> .</p>
                 </div>
             </form>
         </div>

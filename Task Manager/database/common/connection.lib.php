@@ -1,6 +1,6 @@
 <?php 
     //Function that start connection to databse
-    //$base: databse name, &param: folder name for connexion parameters
+    //$base: databse name, $param: folder name for connexion parameters
 
     function connectToDb($param,$base){
         include_once($param.".inc.php");

@@ -19,7 +19,7 @@
                 console.log(response);
                 if(response.indexOf('Connected') > -1){
                     loginCtrl.msg = "Connection successful";
-                    $window.location="#/";
+                    $window.location="#/task";
                 }
                 else{
                     loginCtrl.msg = "Connection failed";

@@ -1,7 +1,7 @@
 <?php
-    include_once("connection.lib.php");
+    include_once("../common/connection.lib.php");
 
-    $connection = connectToDb("credentials","taskManager");
+    $connection = connectToDb("../common/credentials","taskManager");
    
     $array = json_decode(file_get_contents("php://input"));
     if ($array) {
@@ -17,7 +17,7 @@
         $notConnected = true;
         while ($userArray = mysqli_fetch_array($donnees)) {
           
-            if ($username == $userArray['username'] && $password == $userArray['password']) {
+            if ($username == $userArray['username'] && $password == $userArray['userPassword']) {
                 $notConnected = false;
                 echo "Connected";
                 break;

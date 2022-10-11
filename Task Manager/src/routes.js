@@ -25,6 +25,11 @@
             url: '/signUp',
             templateUrl: 'src/signUp/template/signUp.template.html',
             controller: 'SignUpController as signUpCtrl'
+        })
+        .state('task',{
+            url: '/task',
+            templateUrl: 'src/task/template/task.template.html',
+            controller: 'TaskController as taskCtrl'
         });
     }
 })();
